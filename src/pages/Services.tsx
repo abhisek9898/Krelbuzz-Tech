@@ -46,13 +46,13 @@ const Services: React.FC = () => {
         }}
       >
         <h1 className="text-5xl font-bold text-center my-8">Our Services</h1>
-        <p className="text-center mb-4 text-2xl text-black font-bold animate__animated animate__slideInDown">
+        <p className="text-center mb-16 text-1xl text-black font-bold animate__animated animate__slideInDown">
           At Krelbuzz Technologies, we specialize in creating cutting-edge
           mobile applications and cloud solutions. <br /> Our team of experts is
           committed to delivering top-notch services tailored to your unique.
         </p>
         <div
-          className={`grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8 ${
+          className={`grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8 animate__animated animate__zoomIn  ${
             isZoomedIn ? "zoom-in" : ""
           }`}
         >
