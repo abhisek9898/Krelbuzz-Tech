@@ -22,8 +22,8 @@ const Footer: React.FC = () => {
   };
 
   return (
-    <footer className="bg-gray-700 p-4 mt-0">
-      <div className="container mx-auto flex justify-between items-center text-white">
+    <footer className="bg-gray-500 p-4 mt-0">
+      <div className="container mx-8 flex justify-around text-white ">
         <div>&copy; 2024 Krelbuzz Tech. All rights reserved.</div>
         {/* Social media and chat */}
         <div className="flex items-center space-x-8">
