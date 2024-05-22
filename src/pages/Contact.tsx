@@ -14,7 +14,8 @@ const Contact: React.FC = () => {
         style={{
           backgroundImage: `url(${backgroundImage})`,
           backgroundSize: "cover",
-          minHeight: "80.6vh",
+          minHeight: "83.4vh",
+          opacity: 0.8,
         }}
       >
         <ContactForm />

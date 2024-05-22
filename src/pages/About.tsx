@@ -2,7 +2,7 @@ import React from "react";
 import { Link } from "react-router-dom";
 import Navbar from "../components/Navbar";
 import Footer from "../components/Footer";
-import backgroundImage from "../assets/KAbout.jpeg";
+import backgroundImage from "../assets/KServices.jpeg";
 
 const About: React.FC = () => {
   return (
@@ -15,6 +15,7 @@ const About: React.FC = () => {
           backgroundSize: "cover",
           backgroundPosition: "center",
           minHeight: "83.4vh",
+          opacity: 0.8,
         }}
       >
         <h1 className="text-3xl font-bold text-center my-8">About Us</h1>

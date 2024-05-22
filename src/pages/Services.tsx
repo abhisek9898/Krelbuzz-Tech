@@ -43,6 +43,7 @@ const Services: React.FC = () => {
           backgroundSize: "cover",
           backgroundPosition: "center",
           minHeight: "83.4vh",
+          opacity: 0.9,
         }}
       >
         <h1 className="text-5xl font-bold text-center my-8">Our Services</h1>

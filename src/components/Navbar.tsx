@@ -30,7 +30,7 @@ const Navbar: React.FC = () => {
   };
 
   return (
-    <nav className="bg-blue-300 p-4">
+    <nav className="bg-indigo-300 p-4">
       <div className="container mx-auto flex justify-between items-center">
         <div className="flex items-center">
           <img src={logo} alt="Krelbuzz Tech Logo" className="h-10 w-10 mr-3" />
